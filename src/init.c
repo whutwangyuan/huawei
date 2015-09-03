@@ -2,13 +2,12 @@
 #include <time.h>
 
 /*
-* 函数 void init_money(Game *game, int money);
+* 函数 void init_money(Game *game);
 * 参数：game 指向游戏数据结构体的指针
-* 参数：money 玩家初始资金，范围1000 - 50000，默认10000
-* 作用：初始化每位玩家的资金
+* 作用：初始化每位玩家的资金，初始资金范围1000 - 50000，默认10000
 * 作者：
 */
-void init_money(Game *game, int money)
+void init_money(Game *game)
 {
 
 }

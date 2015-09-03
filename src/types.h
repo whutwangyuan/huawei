@@ -35,13 +35,13 @@ typedef struct Place{
 	unsigned int y;
 }Place;		// 地块
 
-/* 定义游戏全局变量的结构体 */
+/* 定义游戏数据的结构体 */
 typedef struct Game{
 	int init_money;	// 每位玩家初始资金
-	int playerNum;	// 玩家个数
+	int player_num;	// 玩家个数
 	Player players[MAX_PLAYER_NUM];	// 玩家数据结构体数组
-	int currentPlayerIndex;	// 当前玩家的编号
-	unsigned int placeNum;	// 地图长度，即有效地块个数
+	int current_player_index;	// 当前玩家的编号
+	unsigned int place_num;	// 地图长度，即有效地块个数
 	Place map[MAX_PLACE_NUM];	// 地块数据结构体数组
 }Game;	// 游戏数据
 
